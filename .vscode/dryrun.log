@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/Users/User/Desktop/hosa'
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb  -O0 -o main.o main.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb  -O0 -o stm32f407xx_gpio_driver.o stm32f407xx_gpio_driver.c
+arm-none-eabi-gcc -c -mcpu=cortex-m4 -mthumb  -O0 -o stm32_startup.o stm32_startup.c
+arm-none-eabi-gcc -nostdlib -T stm32_ls.ld -o my.elf main.o stm32f407xx_gpio_driver.o stm32_startup.o
+make: Leaving directory '/cygdrive/c/Users/User/Desktop/hosa'
+ 
