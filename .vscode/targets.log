@@ -1,19 +1,19 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
 # Built for x86_64-pc-cygwin
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
  
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Sat Sep 18 18:59:44 2021
+# Make data base, printed on Sat Sep 18 19:11:10 2021
 
 # Variables
+ 
 
 # environment
- 
 SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
@@ -24,7 +24,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\User\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c6adfd10-d85b-4cdf-9c9d-a87f7a43b341-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d1060285-5bac-4448-a37e-ce8257ff1e3e-sock
 # environment
 VSCODE_CWD = C:\Users\User\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -38,7 +38,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12768_GOGEDCPYWZXIEMQP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13004_DKILKEPUDXMOKVTS
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -92,7 +92,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 12768
+VSCODE_PID = 13004
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -116,6 +116,7 @@ MAKECMDGOALS := all
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
+ 
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
 WINDIR = C:\WINDOWS
@@ -209,12 +210,12 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+ 
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
 PROCESSOR_REVISION = 8e0a
 # makefile (from 'Makefile', line 1)
- 
 CC = arm-none-eabi-gcc
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
@@ -227,9 +228,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
 
 # Directories
 
-# . (device 2024043088, inode 281474978156277): 14 files, no impossibilities.
+# . (device 2024043088, inode 281474978156277): 15 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -316,7 +317,9 @@ stm32f407xx_gpio_driver.c:
 #  Last modified 2021-09-17 23:56:12.4950151
 #  File has been updated.
 #  Successfully updated.
+ 
 
+ 
 # files hash-table stats:
 # Load=12/1024=1%, Rehash=0, Collisions=0/37=0%
 # VPATH Search Paths
@@ -325,12 +328,12 @@ stm32f407xx_gpio_driver.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 221 B / avg = 11 B
-# current buf: size = 8162 B / used = 221 B / count = 19 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 226 B / avg = 11 B
+# current buf: size = 8162 B / used = 226 B / count = 20 / avg = 11 B
 
-# strcache performance: lookups = 44 / hit rate = 56%
+# strcache performance: lookups = 45 / hit rate = 55%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/44=0%
-# Finished Make data base on Sat Sep 18 18:59:44 2021
+# Load=20/8192=0%, Rehash=0, Collisions=0/45=0%
+# Finished Make data base on Sat Sep 18 19:11:10 2021
 
  
