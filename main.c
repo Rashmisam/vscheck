@@ -1,7 +1,7 @@
 /**
  ******************************************************************************
  * @file           : main.c
- * @author         : ASHWIN G
+ * @author         : Rashmi
  * @brief          : Main program body
 
  */
